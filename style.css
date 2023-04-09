@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ccc;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(40px * 8);
+    height: calc(40px * 8);
+    border: 1px solid #000;
+}
+
+
+.square {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.dark {
+    background-color: #764E2B;
+}
+
+.light {
+    background-color: #F0D9B5;
+}
+
+.piece {
+    font-size: 30px;
+    cursor: move;
+    color: #000;
+    font-family: "Arial Unicode MS", "Lucida Sans Unicode", "Lucida Grande", "DejaVu Sans", "DejaVu Serif", "Segoe UI Symbol", "Quivira", "Noto Sans Symbols", "Symbola", "Unifont", "Code2000", "Apple Symbols", "Menlo", "FreeMono", "FreeSans", "LastResort", sans-serif;
+}
+
+
